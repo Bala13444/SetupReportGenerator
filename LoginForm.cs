@@ -19,6 +19,10 @@ namespace SetupReportGenerator
 
         private void BindControls()
         {
+
+
+
+
             txtUsername.DataBindings.Add("Text", viewModel, nameof(viewModel.Username),
                 true, DataSourceUpdateMode.OnPropertyChanged);
 
